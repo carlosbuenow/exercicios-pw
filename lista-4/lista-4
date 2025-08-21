@@ -8,21 +8,14 @@
 <body>
   <h1>1 - Importância da Atividade Física e Alimentação Saudável</h1>
   <hr>
-
   <p>A prática de atividades físicas é essencial para manter a saúde e o bem-estar. Exercícios regulares trazem diversos benefícios, como a prevenção de doenças, a melhora na qualidade de vida e o controle do peso corporal. É importante escolher uma atividade que você goste, como caminhada, corrida, natação ou dança, para que se torne um hábito prazeroso.</p>
-
   <p>Além dos benefícios físicos, a atividade física também contribui para a saúde mental. Estudos mostram que a prática regular de exercícios pode reduzir os níveis de estresse, ansiedade e depressão. A atividade física estimula a liberação de endorfinas, neurotransmissores que promovem uma sensação de bem-estar e felicidade.</p>
-
   <h2>Alimentação Saudável</h2>
   <hr>
   <p>A alimentação saudável é fundamental para o funcionamento adequado do corpo. Uma dieta equilibrada, rica em frutas, vegetais e grãos integrais, fornece os nutrientes necessários para o organismo. É essencial incluir uma variedade de alimentos para garantir a ingestão de vitaminas e minerais essenciais.</p>
-
   <p>Outro ponto importante é a hidratação. O consumo adequado de água é crucial para o funcionamento das células e para a regulação da temperatura corporal. A desidratação pode levar a problemas de saúde, como fadiga, dor de cabeça e diminuição do desempenho físico.</p>
-
   <h3>Benefícios das Atividades Físicas</h3>
-
   <p>A tabela abaixo resume algumas atividades físicas comuns e seus benefícios:</p>
-
   <table border =1>
     <tr>
       <th>Atividade</th>
@@ -44,7 +37,6 @@
       <td>Melhora a coordenação e promove o bem-estar mental</td>
     </tr>
   </table>
-
   <h3>Dicas para uma Vida Saudável</h3>
   <ol>
     <li><strong>Pratique atividades físicas</strong> regularmente, pelo menos 150 minutos por semana.</li>
@@ -53,18 +45,105 @@
     <li>Beba bastante água ao longo do dia para manter-se hidratado.</li>
     <li><strong>Durma bem.</strong> O sono é fundamental para a recuperação e para o desempenho físico.</li>
   </ol>
-
+  <hr>
   <h3>Formulário</h3>
-
-  <p>Crie um formulário simples em seu site para coletar informações sobre as atividades físicas preferidas dos visitantes. O formulário deve incluir:</p>
-
-  <ul>
-    <li><strong>Campo de texto</strong> para o nome do usuário.</li>
-    <li><strong>Opções de radio buttons</strong> para selecionar a atividade física favorita (caminhada, corrida, natação, dança).</li>
-
-
-
-
-  
+  <form>
+    <label><strong>Nome:</strong></label>
+    <br>
+    <input type="text" placeholder="Digite o seu nome">
+    <br><br>
+    <label><strong>Atividade Física Preferida:</strong></label>
+    <br>
+    <input type="radio" name="base" id="caminhada" value="caminhada">
+    <label>Caminhada</label>
+    <input type="radio" name="base" id="corrida" value="corrida">
+    <label>Corrida</label>
+    <input type="radio" name="base" id="natação" value="natação">
+    <label>Natação</label>
+    <input type="radio" name="base" id="dança" value="dança">
+    <label>Dança</label>
+    <br><br>
+    <label for="comentario">Comentario sobre sua experiência:</label>
+    <br>
+    <textarea id="comentario" name="comentario" rows="4" cols="50"
+    placeholder="Compartilhe sua experiência aqui..."></textarea>
+  </form>
+  <hr>
+  <h2>2 - Sustentabilidade e Conservação Ambiental</h2>
+  <p>A sustentabilidade é um conceito que se refere à utilização consciente dos recursos naturais, de forma a garantir que as gerações futuras tenham acesso a esses recursos. É fundamental adotar práticas que promovam a conservação ambiental para proteger o planeta e a biodiversidade.</p>
+  <h3>Importância da Sustentabilidade</h3>
+  <hr>
+  <p>A adoção de práticas sustentáveis ajuda a minimizar os impactos negativos das atividades humanas no meio ambiente. Isso inclui a redução do consumo de recursos, a reciclagem de materiais, a preservação dos ecossistemas e a promoção de uma economia mais verde.</p>
+  <img src="https://irani.com.br/wp-content/uploads/2020/11/objetivos_port.png" style="width: 6%, height: 6%" alt="Imagem de Práticas Sustentáveis">
+  <h3>Tabela 1: Práticas Sustentáveis</h3>
+  <table border="1">
+    <tr>
+      <th>Prática</th>
+      <th>Descrição</th>
+      <th>Benefícios</th>
+    </tr>
+    <tr>
+      <td>Reciclagem</td>
+      <td>Processo de transformar materiais para reutilização</td>
+      <td>Reduz o desperdício e economiza recursos</td>
+    </tr>
+    <tr>
+      <td>Agricultura Orgânica</td>
+      <td>Cultivo de alimentos sem pesticidas e fertilizantes sintéticos</td>
+      <td>Melhora a saúde do solo e da biodiversidade</td>
+    </tr>
+    <tr>
+      <td>Uso de Energias Renováveis</td>
+      <td>Utilização de fontes de energia como solar e eólica</td>
+      <td>Diminui a dependência de combustíveis fósseis</td>
+    </tr>
+  </table>
+  <h3>Tabela 2: Impactos Ambientais</h3>
+  <table border="1">
+    <tr>
+      <th>Impacto</th>
+      <th>Causa</th>
+      <th>Consequências</th>
+    </tr>
+    <tr>
+      <td>Desmatamento</td>
+      <td>Expansão agrícola e urbana</td>
+      <td>Perda de biodiversidade e alterações climáticas</td>
+    </tr>
+    <tr>
+      <td>Poluição do Ar</td>
+      <td>Emissões de indústrias e veículos	</td>
+      <td>Problemas de saúde e degradação ambiental</td>
+    </tr>
+    <tr>
+      <td>Mudanças Climáticas</td>
+      <td>Emissão de gases de efeito estufa</td>
+      <td>Aumento da temperatura global e eventos climáticos extremos</td>
+    </tr>
+  </table>
+  <hr>
+  <h3>Formulário</h3>
+  <form>
+  <label>Nome</label>
+  <br>
+  <input type="text" placeholder="Digite o seu nome...">
+  <br><br>
+  <label><strong>Prática Sustentável Preferida:</strong>
+  <br>
+  <input type="radio" name="base" id="reciclagem" value="reciclagem">
+  <label>Reciclagem</label>
+  <input type="radio" name="base" id="agricultura" value="agricultura">
+  <label>Agricultura Orgânica</label>
+  <input type="radio" name="base" id="energia renovável" value="energia renovável">
+  <label>Uso de Energias Renováveis</label>
+  <br><br>
+  <label><strong>Comentário</strong></label>
+  <br>
+  <textarea id="comentario" name="comentario" rows="4" cols="50" placeholder="Compartilhe sua experiência aqui..."></textarea>
+  </form>
+  <p><strong>Link para mais informações:</strong>Para saber mais sobre sustentabilidade, visite <a href="https://www.institutoambiental.com.br/" target="_blank">Instituto Ambiental.</a></p>
+  <hr>
+  <h3>Conclusão</h3>
+  <p>Adotar práticas sustentáveis é fundamental para a conservação do meio ambiente e para garantir um futuro melhor para as próximas gerações. Cada pequena ação conta e pode fazer a diferença!</p>
 </body>
 </html>
