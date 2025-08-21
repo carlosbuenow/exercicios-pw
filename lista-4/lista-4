@@ -124,22 +124,22 @@
   <hr>
   <h3>Formulário</h3>
   <form>
-  <label>Nome</label>
-  <br>
-  <input type="text" placeholder="Digite o seu nome...">
-  <br><br>
-  <label><strong>Prática Sustentável Preferida:</strong>
-  <br>
-  <input type="radio" name="base" id="reciclagem" value="reciclagem">
-  <label>Reciclagem</label>
-  <input type="radio" name="base" id="agricultura" value="agricultura">
-  <label>Agricultura Orgânica</label>
-  <input type="radio" name="base" id="energia renovável" value="energia renovável">
-  <label>Uso de Energias Renováveis</label>
-  <br><br>
-  <label><strong>Comentário</strong></label>
-  <br>
-  <textarea id="comentario" name="comentario" rows="4" cols="50" placeholder="Compartilhe sua experiência aqui..."></textarea>
+    <label>Nome</label>
+    <br>
+    <input type="text" placeholder="Digite o seu nome...">
+    <br><br>
+    <label><strong>Prática Sustentável Preferida:</strong>
+    <br>
+    <input type="radio" name="base" id="reciclagem" value="reciclagem">
+    <label>Reciclagem</label>
+    <input type="radio" name="base" id="agricultura" value="agricultura">
+    < label>Agricultura Orgânica</label>
+    <input type="radio" name="base" id="energia renovável" value="energia renovável">
+    <label>Uso de Energias Renováveis</label>
+    <br><br>
+    <label><strong>Comentário</strong></label>
+    <br>
+    <textarea id="comentario" name="comentario" rows="4" cols="50" placeholder="Compartilhe sua experiência aqui..."></textarea>
   </form>
   <p><strong>Link para mais informações:</strong>Para saber mais sobre sustentabilidade, visite <a href="https://www.institutoambiental.com.br/" target="_blank">Instituto Ambiental.</a></p>
   <hr>
