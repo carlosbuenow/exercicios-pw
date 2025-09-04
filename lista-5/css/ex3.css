@@ -1,0 +1,12 @@
+.intro{
+  font-family: 'Courier New', Courier, monospace;
+  font-size: 25px;
+  color: blue;
+  text-align: end;
+}
+.descricao{
+  font-size: 25px;
+  font-family: Arial, Helvetica, sans-serif;
+  color: red;
+  text-align: right;
+}

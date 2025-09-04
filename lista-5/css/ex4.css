@@ -1,0 +1,12 @@
+.coluna1{
+  padding-left: 100px;
+  float: left;
+  border-style: groove;
+  padding-right: 100px;
+}
+.coluna2{
+  float: right;
+  border-style: groove;
+  padding-left: 100px;
+  padding-right: 100px;
+}
