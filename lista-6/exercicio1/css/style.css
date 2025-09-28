@@ -17,7 +17,7 @@ header{
     display: block;
     text-align: center;
     padding: 2rem;
-    background: url(/lista-6/ex1/exercicio1/assets/img/bf.jpg) no-repeat center/cover;
+    background: url(/lista-6/exercicio1/assets/img/bf.jpg) no-repeat center/cover;
     color: white;
     border-bottom: 3px groove;
     border-image-slice: 0.9;
@@ -79,7 +79,7 @@ header{
  color: white;
  margin: 0.5rem;
  padding: 0.5rem 1.5rem;
- background-image:url(/lista-6//ex1/exercicio1/assets/img/background.jpeg);
+ background-image:url(/lista-6/exercicio1/assets/img/background.jpeg);
 }
 #skills ul li:hover{
     transition: linear 0.3s;
@@ -111,7 +111,7 @@ header{
     color: white;
     margin: 0.5rem;
     padding: 0.5rem 2rem;
-    background-image:url(/lista-6//ex1/exercicio1/assets/img/background.jpeg);
+    background-image:url(/lista-6/exercicio1/assets/img/background.jpeg);
 }
 #hobbies ul li:hover{
     transition: linear 0.3s;
@@ -161,7 +161,7 @@ header{
     box-shadow: 0 0 10px 4px #05226B;
 }
 #contact{
-    background: url(/lista-6/ex1/exercicio1/assets/img/bf.jpg) no-repeat center/cover;
+    background: url(/lista-6/exercicio1/assets/img/bf.jpg) no-repeat center/cover;
     padding-top: 20px;
     color: white;
     text-align: center;
