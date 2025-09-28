@@ -1,0 +1,192 @@
+*{
+    padding: 0%;
+    margin: 0%;
+    box-sizing: border-box;
+}
+body{
+    height: 100vh;
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    color: #000;
+    background-color: white;
+}
+img{
+    max-width: 100%;
+    display: block;
+}
+header{
+    display: block;
+    text-align: center;
+    padding: 2rem;
+    background: url(/lista-6/assets/img/bf.jpg) no-repeat center/cover;
+    color: white;
+    border-bottom: 3px groove;
+    border-image-slice: 0.9;
+    border-image-source: linear-gradient(50deg, #1A5BA3, #050F6B, #05226B);
+}
+#about{
+    display: inline-block;
+    text-align: center;
+    border-bottom: 3px groove;
+    border-image-slice: 0.9;
+    border-image-source:linear-gradient(50deg, #1A5BA3, #050F6B, #05226B);
+    padding-bottom: 2rem;
+    margin: 0 auto;
+    width: 100%;
+    background-color: #c0c0c0;
+}
+#about img{
+    float: left;
+    height: 150px;
+    width: 150px;
+    border-radius:50%;
+    box-shadow: 0 0 0 1.2px #ff9100;
+    overflow: hidden;
+    margin-left: 180px;
+    margin-right: 0px;
+    margin-top: 30px;
+}
+#about h2{
+    padding-top: 25px;
+    margin-right: 20px;
+}
+#about p{
+    margin-right: 20px;
+    padding-top: 20px;
+}
+#skills{
+    display: block;
+    border-bottom: 3px groove;
+    border-image-slice: 0.9;
+    border-image-source: linear-gradient(50deg,#1A5BA3, #050F6B, #05226B);
+    text-align: center;
+    margin: 0 auto;
+    width: 100%;
+    padding-bottom: 10px;
+}
+#skills h2{
+    padding-top: 20px;
+    padding-bottom: 30px;
+}
+#skills ul{
+    list-style: none;
+    margin: 0 auto;
+}
+#skills ul li{
+ cursor: pointer;
+ display: inline-block;
+ border: 2px solid #05226B;
+ border-radius: 50px;
+ color: white;
+ margin: 0.5rem;
+ padding: 0.5rem 1.5rem;
+ background-image:url(/lista-6/assets/img/background.jpeg);
+}
+#skills ul li:hover{
+    transition: linear 0.3s;
+    transform: scale(1.05);
+    box-shadow: 0 0 10px 4px #05226B;
+}
+#hobbies{
+    display: block;
+    border-bottom: 3px groove;
+    border-image-slice: 0.9;
+    border-image-source: linear-gradient(50deg,#1A5BA3,#050F6B,#05226B);
+    text-align: center;
+    height: 17vh;
+    margin: 0 auto;
+    width: 100%;
+}
+#hobbies h2{
+    padding-top: 20px;
+    padding-bottom: 30px;
+}
+#hobbies ul{
+    list-style: none;
+    margin: 0 auto;
+}
+#hobbies ul li{
+    display: inline-block;
+    border: 2px solid #05226B;
+    border-radius: 50px;
+    color: white;
+    margin: 0.5rem;
+    padding: 0.5rem 2rem;
+    background-image:url(/lista-6/assets/img/background.jpeg);
+}
+#hobbies ul li:hover{
+    transition: linear 0.3s;
+    transform: scale(1.05);
+    box-shadow: 0 0 10px 4px #05226B;
+}
+#projects{
+    padding-top: 20px;
+    display: block;
+    text-align: center;
+    margin: 0 auto;
+    width: 100%;
+    padding-bottom: 30px;
+    border-bottom: #050F6B groove;
+    background-color: #c0c0c0;
+}
+#projects .santa{
+    display: inline-block;
+    margin: 1rem;
+    padding: 0.5rem 1rem;
+    border-radius: 50px;
+    border: 2px solid #05226B;
+    background-color: white;
+}
+#project .santa h2{
+    padding-bottom: 2px;
+}
+#projects .banner{
+    display: inline-block;
+    margin: 1rem;
+    padding: 0.5rem 1rem;
+    border-radius: 50px;
+    border: 2px solid #05226B;
+    background-color: white;
+}
+#projects h2{
+    padding-top: 2px;
+}
+#projects .santa:hover{
+    transition: linear 0.3s;
+    transform: scale(1.05);
+    box-shadow: 0 0 10px 4px #05226B;
+}
+#projects .banner:hover{
+    transition: linear 0.3s;
+    transform: scale(1.05);
+    box-shadow: 0 0 10px 4px #05226B;
+}
+#contact{
+    background: url(/lista-6/assets/img/bf.jpg) no-repeat center/cover;
+    padding-top: 20px;
+    color: white;
+    text-align: center;
+}
+#contact input{
+    border-radius: 6px;
+    padding: 0.6rem 1rem;
+    margin-bottom:  1rem;
+    width: 40%;
+}
+#contact input[type="submit"]{
+    background-color: #05226B;
+    color: #fff;
+    font-weight: bold;
+    text-align: center;
+    margin-top: 2rem;
+    cursor: pointer;
+    transition: background-color 0.3s;
+}
+#contacts input[type="submit"]:hover {
+    background-color: #1A5BA3;
+}
+footer{
+    padding: 0.5rem;
+    text-align: center;
+    color: white;
+    background-color: #000;
+}
