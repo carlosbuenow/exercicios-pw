@@ -7,6 +7,7 @@ body{
     height: 100vh;
 }
 header{
+    width: 100%;
     display: block;
     text-align: center;
     border-bottom: 3px solid;
@@ -15,7 +16,7 @@ header{
     color: white;
     background: url(https://static.vecteezy.com/system/resources/thumbnails/011/545/805/small_2x/abstract-luxury-glowing-lines-curved-overlapping-on-dark-blue-background-template-premium-award-design-free-vector.jpg) no-repeat center/cover;
     margin-bottom: 2rem;
-    height: 20vh;
+    
 }
 header nav{
     display: inline-block;
@@ -39,45 +40,51 @@ header nav a:hover{
     transform:scale(1.09);
 }
 #first{
+    margin-top: 1rem;
     margin: 0 auto;
-    height: 20vh;
-    margin-bottom: 20rem;
     width: 100%;
 }
 .img1{
     border: 2px solid;
     display: block;
     box-shadow: 0 0 8px black;
-    margin: 1.5rem;
+    margin: 1rem;
     width: 30%;
     float: right;
     padding: 2rem;
+    border-radius: 25px;
 }
 .img2{
     border: 2px solid;
     display: block;
     box-shadow: 0 0 8px black;
-    margin: 1.5rem;
+    margin: 1rem;
     width: 30%;
     float: left;
     padding: 2rem;
+    margin-bottom: 3rem;
+    border-radius: 25px;
 }
 .img3{
     display:inline-block;
     width:30%;
     border: 2px solid;
     box-shadow: 0 0 8px black;
-    padding: 2rem;
+    padding-left: 3.7rem;
+    padding-top: 2rem;
+    margin-bottom: 3rem;
+    margin-left: 2rem;
+    margin-top: 1rem;
+    border-radius: 25px;
+}
 
-}
-.img3 p{
-    margin: 1rem;
-}
 #second{
-    margin-top: 8rem;
+    margin-bottom: 2rem;
     margin: 0 auto;
-    height: 20vh;
     width: 100%;
+}
+h2{
+    text-align: center;
 }
 .img4{
     border: 2px solid;
@@ -86,16 +93,22 @@ header nav a:hover{
     margin: 1.5rem;
     width: 30%;
     float:left;
-    padding: 2rem;
+    padding-top: 1rem;
+    padding-left: 3.5rem;
+    border-radius: 25px;
 }
 .img5{
     float: right;
     border: 2px solid;
     display: block;
     box-shadow: 0 0 8px black;
-    margin: 1.5rem;
+    margin: 0.5rem;
     width: 30%;
-    padding: 2rem;
+    padding-left: 4rem;
+    margin-top: 1.6rem;
+    padding-top: 2rem;
+    border-radius: 25px;
+    
 }
 .img6{
     margin: 0.5rem;
@@ -104,50 +117,73 @@ header nav a:hover{
     width:30%;
     border: 2px solid;
     box-shadow: 0 0 8px black;
-    padding: 2rem;
+    margin-right: 2.5rem;
+    padding-left: 4rem;
+    margin-top: 1.6rem;
+    padding-top: 2rem;
+    border-radius: 25px;
 }
 #third{
+    margin-bottom: 4rem;
     margin: 0 auto;
-    height: 20vh;
-    margin-top: 20rem;
+    margin-top: 2rem;
     width: 100%;
 }
 .img7{
     margin: 0.5rem;
     float: left;
-    display:in;
+    display:block;
     width:30%;
     border: 2px solid;
     box-shadow: 0 0 8px black;
-    padding: 2rem;
+    padding-top: 1rem;
+    padding-left: 3rem;
+    border-radius: 25px;
 }
 .img8{
     margin: 0.5rem;
-    float: right;
+    float: left;
     display:block;
     width:30%;
     border: 2px solid;
     box-shadow: 0 0 8px black;
-    padding: 2rem;
+    padding-top: 1rem;
+    padding-left: 4rem;
     margin-left: 1.5rem;
+    margin-right: 1.5rem;
+    border-radius: 25px;
 }
 .img9{
-    margin-right: 1.5rem;;
+    margin-left: 2.5rem;
+    border-radius: 25px;
     margin: 0.5rem;
-    float: right;
+    float: left;
     display:block;
     width:30%;
     border: 2px solid;
     box-shadow: 0 0 8px black;
-    padding: 2rem;
+    padding-top: 1rem;
+    padding-left: 4rem;
 }
-h2{
-    text-align: center;
-    margin-top: 1.5rem;
-    margin-bottom: 1.5rem;
-}
+
 footer{
+    width:100%;
+    display:inline-block;
+    border-top: 3px solid;
     text-align: center;
-    height: 20vh;
-    margin-top: 1rem;
+    background: url(https://th.bing.com/th/id/R.933a73bd903e0268c82f76c5766f56c2?rik=WYhaFBnYKhbnAQ&pid=ImgRaw&r=0) no-repeat center/cover;
+}
+footer ul{
+    display:block;
+    float: right;
+    margin-right: 3rem;
+    list-style: none;
+}
+footer ul li a{
+    color: white;
+    text-decoration: none;
+}
+footer h1{
+    color: white;
+    padding-top: 1rem;
 }
