@@ -1,123 +1,121 @@
 *{
-    margin: 0%;
-    padding: 0%;
-    box-sizing: border-box;
+  margin: 0%;
+  padding: 0%;
+   box-sizing: border-box;
+}
+:root{
+  --primary-color:var(#e85f19);
+  --secondary-color:var(#ee8a56);
+  --dark-color:var(#262627);
+  --info-color:var(#5d5d5d);
+  --light-color:var(#f8f9fc);
+}
+body{
+  background-image: url(/brand-buzz/assets/img/bg.png);
+  background-repeat: no-repeat;
+  background-size: auto;
+  height: 100vh;
+  font-family:'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif
+}
+a{
+  text-decoration: none;
+  color:var(--dark-color);
+  font-weight: 500;
+  font-size: 1.2rem;
   }
-  :root{
-    --primary-color:var(#e85f19);
-    --secondary-color:var(#ee8a56);
-    --dark-color:var(#262627);
-    --info-color:var(#5d5d5d);
-    --light-color:var(#f8f9fc);
-  }
-  body{
-    background-image: url(/brand-buzz/assets/img/bg.png);
-    background-repeat: no-repeat;
-    background-size: auto;
-    height: 100vh;
-    font-family:'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif
-  }
-  a{
-    text-decoration: none;
-    color:var(--dark-color);
-    font-weight: 500;
-    font-size: 1.2rem;
-  }
-  ul{
-    list-style: none;
-  }
-  .top{
-    max-width: 1200px;
-    margin: 0 auto;
-    padding: 0 2rem;
-  }
-  button{
-    all: unset;
-    color: white;
-    text-align: center;
-    background-color:#e85f19;
-    padding: 1rem 1.5rem;
-    border-radius: 9px;
-    box-shadow: 0 0 10px #ee8a56;
-    cursor: pointer;
-  }
-  button:hover{
-    transform: scale(1.05);
-    transition: 0.5s ease;
-  }
-  header{
-    display: flex;
-    justify-content: space-between;
-    align-items: center;
-  }
-  header .logo{
-    flex-grow: 1;
-  }
-  header .menu{
-    flex-grow: 3;
-  }
-  header .menu ul{
-    display: flex;
-    justify-content: space-evenly;
-    width: 80%;
-  }
-  header .menu ul li::after{
-    content: "";
-    display: block;
-    width: 0%;
-    height: 2px;
-    background-color: orange;
-    transition: width 0.3s;
-  
-    }
-  header .menu ul li:hover:after{
-    width: 100%;
-  }
-  .hero{
-    display: flex;
-  }
-  #left{
-    margin-top: 17rem;
-    display: flex;
-    flex-direction: column;
-    gap: 4rem;
-  }
-  #left h1 strong{
-    color: #e85f19;
-  }
-  .title{
-    font-size: 26px;
-    width: 50%;
-    color: #262627;
-
-  }
-  .text{
-    font-size: 20px;
-    width: 75%;
-    color: #5d5d5d;
-  }
-  #right{
-    margin-top: 10rem;
-    display: flex;
-    flex-direction: row;
-    align-self: flex-end;
-    margin-bottom: 15rem;
-  }
-  .link i{
-    box-shadow: 0 0 10px #ee8a56;
-    font-size: 25px;
-    border-radius: 50%;
-    overflow: hidden;
-    padding-top: 10px;
-    height: 40px;
-    width: 40px;
-    margin-right: 10px;
-  }
-  .link a{
-    text-decoration: underline;
-    margin-top: 8.5px;
-  }
-  .link{
-    display: flex;
-    flex-direction: row;
-  }
+ul{
+  list-style: none;
+}
+.top{
+  max-width: 1200px;
+  margin: 0 auto;
+  padding: 0 2rem;
+}
+button{
+  all: unset;
+  color: white;
+  text-align: center;
+  background-color:#e85f19;
+  padding: 1rem 1.5rem;
+  border-radius: 9px;
+  box-shadow: 0 0 10px #ee8a56;
+  cursor: pointer;
+}
+button:hover{
+  transform: scale(1.05);
+  transition: 0.5s ease;
+}
+header{
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+header .logo{
+  flex-grow: 1;
+}
+header .menu{
+  flex-grow: 3;
+}
+header .menu ul{
+  display: flex;
+  justify-content: space-evenly;
+  width: 80%;
+}
+header .menu ul li::after{
+  content: "";
+  display: block;
+  width: 0%;
+  height: 2px;
+  background-color: orange;
+  transition: width 0.3s;
+}
+header .menu ul li:hover:after{
+  width: 100%;
+}
+.hero{
+  display: flex;
+}
+#left{
+  margin-top: 17rem;
+  display: flex;
+  flex-direction: column;
+  gap: 4rem;
+}
+#left h1 strong{
+  color: #e85f19;
+}
+.title{
+  font-size: 26px;
+  width: 50%;
+  color: #262627;
+}
+.text{
+  font-size: 20px;
+  width: 75%;
+  color: #5d5d5d;
+}
+#right{
+  margin-top: 10rem;
+  display: flex;
+  flex-direction: row;
+  align-self: flex-end;
+  margin-bottom: 15rem;
+}
+.link i{
+  box-shadow: 0 0 10px #ee8a56;
+  font-size: 25px;
+  border-radius: 50%;
+  overflow: hidden;
+  padding-top: 10px;
+  height: 40px;
+  width: 40px;
+  margin-right: 10px;
+}
+.link a{
+  text-decoration: underline;
+  margin-top: 8.5px;
+}
+.link{
+  display: flex;
+  flex-direction: row;
+}
