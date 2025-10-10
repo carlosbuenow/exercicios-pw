@@ -1,0 +1,243 @@
+*{
+    margin: 0%;
+    padding: 0%;
+    box-sizing: border-box;
+}
+body{
+    background: linear-gradient(90deg, #e6e6e6, #d1d1d1);
+    font-family:'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif
+}
+header{
+    padding-left: 2rem;
+    display: inline-block;
+    gap: 1rem;
+    padding: 1rem;
+    background-color: white;
+    width: 100vw;
+    margin-bottom: 2rem;
+}
+header img:hover{
+    cursor: pointer;
+    transition: 0.3s ease;
+    transform: scale(1.08);
+}
+h1{
+    float: left;
+}
+.imghd{
+    display: flex;
+    float: inline-end;
+    gap: 2rem;
+}
+.imghd img{
+    overflow: hidden;
+    border-radius: 50px;
+    padding: 5px;
+    border: 2px solid;
+}
+
+.userheader{
+    background-color:#fcfc8f;
+}
+.chatheader{
+    background-color: #faaa8d;
+}
+.notificationheader{
+    background-color: #fc8383;
+}
+.basketheader{
+    background-color: #bbbaba;
+}
+#container{
+    height: 80vh;
+    width: 100%;
+    display: flex;
+    flex-grow: 1;
+}
+aside{
+    width: 9%;
+    background: white;
+    padding: 1.5rem;
+    border: 1px solid;
+    border-radius: 6px;
+}
+nav ul{
+    margin-left: 1.5rem;
+    list-style: none;
+}
+nav ul li{
+    margin-top: 1rem;
+    row-gap: 1rem;
+    display: flex;
+    flex-direction: column;
+}
+.dashboard:hover{
+    cursor: pointer;
+    transform: scale(1.04);
+    transition: 0.3s ease;
+}
+.messaging:hover{
+    cursor: pointer;
+    transform: scale(1.04);
+    transition: 0.3s ease;
+}
+.pages:hover{
+    cursor: pointer;
+    transform: scale(1.04);
+    transition: 0.3s ease;
+}
+nav img{
+    background-color: gray;
+    border: 2px groove;
+    padding: 0.5rem;
+    border-radius: 50px
+}
+.today{
+    width: 75%;
+    display: flex;
+    flex-direction: column;
+    margin-left: 8rem;
+}
+.today ul{
+    flex-direction: row;
+    display: flex;
+    list-style: none;
+    justify-content: center;
+    justify-content: space-between;
+}
+.today ul li{
+    display: flex;
+}
+.today img{
+    display: block;
+}
+
+.card1{
+    flex-shrink: 0;
+    width: 30%;
+    background: white;
+    border: 1px groove black;
+    margin: 3rem;
+    row-gap: 1.5rem;
+    gap: 2rem;
+    padding: 1rem;
+    align-items: center;
+    display: flex;
+    border-radius: 6px;
+}
+.card2{
+    flex-shrink: 1;
+    order: -1;
+    flex-grow: 1;
+    width: 30%;
+    background: white;
+    border: 1px groove black;
+    margin: 3rem;
+    row-gap: 1.5rem;
+    gap: 2rem;
+    padding: 1rem;
+    align-items: center;
+    display: flex;
+    border-radius: 6px;
+}
+.card3{
+    flex-shrink: 1;
+    align-items: center;
+    align-self:center;
+    flex-basis: 500px;
+    order: -2;
+    flex-grow: 1;
+    width: 30%;
+    background: white;
+    border: 1px groove black;
+    margin: 3rem;
+    row-gap: 1.5rem;
+    gap: 2rem;
+    padding: 1rem;
+    display: flex;
+    border-radius: 6px;
+}
+.card1:hover{
+    box-shadow: 0 0 10px #67b867;
+    transform: scale(1.02);
+    transition: 0.4s ease;
+}
+.card2:hover{
+    box-shadow: 0 0 10px #44a5ff;
+    transform: scale(1.02);
+    transition: 0.4s ease;
+}
+.card3:hover{
+    box-shadow: 0 0 10px #cccc08d3;
+    transform: scale(1.02);
+    transition: 0.4s ease;
+}
+.card p{
+    font-size: 16px;
+    margin-bottom: 1rem;
+    text-align: end;
+}
+.card h2{
+    margin-top: 1rem;
+    margin-bottom: 1rem;
+    font-size: 48px;
+    text-align: end;
+}
+.basketimg{
+    padding: 0.5rem;
+    border-radius: 50px;
+    background: #67b867;
+}
+.likesimg{
+    border-radius: 50px;
+    background: #3469fd;
+}
+.regimg{
+    border-radius: 50px;
+    background: #cccc08d3;
+}
+.basketh2{
+    color: #67b867;
+}
+.likesh2{
+    color: #3469fd;
+}
+.regh2{
+    color: #cccc08d3;
+}
+.today2{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+}
+.card4{
+    flex-shrink: 1;
+    flex-basis: 650px;
+    align-items:center;
+    background: white;
+    border-radius: 6px;
+    border: 1px groove black;
+    width: 45%;
+    margin-top: 1rem;
+    display: flex;
+    flex-direction: column;
+}
+
+.card4 h2{
+    margin: 1rem 1rem;
+}
+.card4:hover{
+    box-shadow: 0 0 10px black;
+    transform: scale(1.02);
+    transition: 0.4s ease;
+}
+.invoicing h2{
+    margin-bottom: 2rem;
+}
+footer{
+    background: white;
+    border-top: 1px solid;
+    margin-top: 1.5rem;
+    display: flex;
+    justify-content: center;
+}
